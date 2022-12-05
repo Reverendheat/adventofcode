@@ -1,4 +1,4 @@
-from utils.reader import file_reader
+from aoc.twotwo.utils.reader import file_reader
 import string
 
 def part_one(path: str):
