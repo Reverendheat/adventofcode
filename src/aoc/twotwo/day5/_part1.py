@@ -1,9 +1,9 @@
 from aoc.twotwo.utils.reader import file_reader
-from input import CRATE_STACKS
+from aoc.twotwo.day5.input import CRATE_STACKS
 
 def get_top_items() -> str:
   output = ""
-  for k,v in CRATE_STACKS.items():
+  for _,v in CRATE_STACKS.items():
     output += v[0]
   return output
 
